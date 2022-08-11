@@ -1,0 +1,14 @@
+{
+    "name": "axe-and-puppeteer-html",
+    "version": "1.0.0",
+    "description": "Sample of using AXE and Puppeteer on HTML files",
+    "repository": "https://github.com/nkelkar-kg/Axe-Puppeteer-and-HTML",
+    "private": true,
+    "scripts": {
+        "a11y": "node ./a11y-check.js"
+    },
+    "devDependencies": {
+        "axe-core": "^4.4.3",
+        "puppeteer": "^16.1.0"
+    }
+}
